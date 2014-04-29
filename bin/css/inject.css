@@ -1,0 +1,7 @@
+div.site .container  {
+	width: 99%  !important;
+}
+
+div.repository-with-sidebar .repository-content {
+	width: 86%  !important;
+}
