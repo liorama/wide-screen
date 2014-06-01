@@ -1,22 +1,22 @@
 {
-  "name": "Width Maximizer",
-  "version": "0.0.1",
+  "name": "Wide Screen",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "Makes the Github diff screen utilize the full width of the screen",
+  "Short Name": "Maximize the width of your screen",
+  "description": "The Github pull request Diff content area is much too narrow. Utilize the full width of your screen and make your life easier.",
   "homepage_url": "http://google.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "permissions": [
-    "https://github.com/*"
+    "*://*/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*"
+        "*://github.com/*"
       ],
       "css": [
         "bin/css/inject.css"
