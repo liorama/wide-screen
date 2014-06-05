@@ -1,6 +1,6 @@
 div.site .container  {
 	width: 100%  !important;
-	padding: 0 10px !important;
+	margin: 0 30px; !important;
 }
 
 .repository-with-sidebar {
