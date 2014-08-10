@@ -1,6 +1,6 @@
 div.site .container  {
 	width: 100%  !important;
-	margin: 0 30px; !important;
+	margin: 0 20px; !important;
 }
 
 .repository-with-sidebar {
@@ -34,4 +34,12 @@ div.site .container  {
     flex: 1 1 auto;
     -webkit-align-self: auto;
     align-self: auto;
+}
+
+.repository-with-sidebar.with-full-navigation .repository-sidebar {
+	margin: 0 37px 0 0;
+}
+
+#files .file {
+	overflow-x: scroll;
 }

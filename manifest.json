@@ -1,6 +1,6 @@
 {
   "name": "Wide Screen",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "manifest_version": 2,
   "Short Name": "Maximize the width of your screen",
   "description": "The Github pull request Diff content area is much too narrow. Utilize the full width of your screen and make your life easier.",
